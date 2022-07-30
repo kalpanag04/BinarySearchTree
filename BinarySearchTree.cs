@@ -86,10 +86,9 @@ namespace BinarySearchTreeDemo
             if (element.CompareTo(node.NodeData) > 0)
                 IfExists(element, node.rightTree);
             return result;
+
         }
 
-
     }
-
 
 }
